@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d135c7b8-0d15-4747-a41b-8f1302bfd967" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o4ALRzJi6e5EpVEABwy3tioeVD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public\css" />
+      <recent name="C:\xampp\htdocs\view\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public\img" />
+      <recent name="C:\xampp\htdocs\view" />
+      <recent name="C:\xampp\htdocs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d135c7b8-0d15-4747-a41b-8f1302bfd967" name="Default Changelist" comment="" />
+      <created>1612535444100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612535444100</updated>
+      <workItem from="1612535453776" duration="553000" />
+      <workItem from="1613086991309" duration="4681000" />
+      <workItem from="1613134399278" duration="5238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1113" y="329" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613087257603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1113" y="329" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613087257603" />
+    <state x="831" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613089264794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="831" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613089264794" />
+    <state x="1093" y="234" key="NewPhpClassDialog" timestamp="1613088679602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1093" y="234" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613088679602" />
+    <state x="1100" y="435" key="NewPhpFileDialog" timestamp="1613140180790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1100" y="435" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613140180790" />
+  </component>
+</project>

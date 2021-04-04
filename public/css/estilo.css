@@ -1,0 +1,44 @@
+body{
+
+    background-image:url("../img/fondo.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    background-size: auto;
+
+}
+strong{
+    font-size: x-large;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    font-weight: bold;
+    color: initial;
+}
+#ingreso{
+    margin: auto;
+}
+#titulo{
+    font-size: 4rem;
+    margin: auto;
+
+}
+#imagenA{
+     margin: auto;
+}
+
+td img{
+    width: 100px;
+    height: 100px;
+}
+.bg-gradient-light{
+    background: rgba(255, 255, 255, 0.95);
+}
+table{
+    background: rgba(255, 255, 255, 0.95);
+}
+td{
+    vertical-align:middle!important;
+}
+
+
