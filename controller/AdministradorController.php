@@ -16,15 +16,28 @@ class AdministradorController
         echo $this->render->render("view/administrador.php", $data);
     }
     public function login(){
-        $usuario=$_POST["usuario"];
-        $password=$_POST["password"];
-        if ($usuario=="machick" && $password=="jojo1998") {  
+        /* MODIFICAR SESSIONES Y ADMINISTRADOR */ 
+        $usuario=isset($_POST["usuario"]);
+        $password=isset($_POST["password"]);
+        if (($usuario=="machick" && $password=="jojo1998")||($_SESSION["usuario_logeado"]="machick" && $_SESSION["password_logeado"]="jojo1998")) {  
+            $_SESSION["usuario_logeado"]="machick";
+            $_SESSION["password_logeado"]="jojo1998";
             $data["admins"]=$this->AdministradorModel->traerAdmins();          
             echo $this->render->render("view/administrador-logeado.php",$data);
         }else{
             $data["mensajeError"]="usuario y/o contraseña incorrectos";
             echo $this->render->render("view/administrador.php",$data);
         }
+    }
+    public function agregarAdmin(){
+        $usuario=$_POST["nombreNuevoAdmin"];
+        $password=$_POST["passwordNuevoAdmin"];
+        $this->AdministradorModel->agregarAdmin($usuario,$password);
+        header("Location:/Administrador/login");
+    }
+    public function logout(){
+        session_destroy();
+        header("Location:/");
     }
 
 }
