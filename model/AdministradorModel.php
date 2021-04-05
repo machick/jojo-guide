@@ -23,4 +23,22 @@ class AdministradorModel{
         '$password');
         ");
     }
+    public function eliminarAdminById($id){
+        $bdd= $this->nombreDataBase;
+        $this->database->execute("
+            DELETE FROM `$bdd`.`admins` WHERE id='$id';"
+        );
+    }
+    
+    public function editarAdmin($id,$usuario,$password){
+        $bdd= $this->nombreDataBase;
+        $this->database->execute(
+            "UPDATE `$bdd`.`admins`
+            SET
+            nick = '$usuario', 
+            password= '$password'
+            WHERE id= $id;"
+        );
+    }
+
 }

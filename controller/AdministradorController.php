@@ -35,6 +35,19 @@ class AdministradorController
         $this->AdministradorModel->agregarAdmin($usuario,$password);
         header("Location:/Administrador/login");
     }
+    public function editarAdmin(){
+        $id=$_POST["idEditar"];
+        $usuario=$_POST["nombreAdmin"];
+        $password=$_POST["passwordAdmin"];
+        $this->AdministradorModel->editarAdmin($id,$usuario,$password);
+        header("Location:/Administrador/login");
+    }
+    public function eliminarAdmin(){
+        
+        $usuario=$_POST["idAdmin"];
+        $this->AdministradorModel->eliminarAdminById($usuario);
+        header("Location:/Administrador/login");
+    }
     public function logout(){
         session_destroy();
         header("Location:/");
