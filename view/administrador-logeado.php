@@ -54,7 +54,7 @@
                       </div>
                     </td>
             <td> 
-            <form action="eliminarAdmin" method="POST">
+            <form action="eliminarAdmin" method="POST"class="m-auto">
             <input type="hidden" name="idAdmin" value="{{id}}">
             <button type='submit' class='btn btn-danger'>
                             Eliminar
@@ -100,6 +100,6 @@
   </div>
 </div>
     
-    <a href="/logout"><button type='button' class='btn btn-warning'> Cerrar sesion</button></a>
+    <a href="/Administrador/logout"><button type='button' class='btn btn-warning'> Cerrar sesion</button></a>
 </div>
 </body>

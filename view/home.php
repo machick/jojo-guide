@@ -24,7 +24,7 @@
 
 
 <div class="container mt-3" id="tabla">
-    <div class='container bg-gradient-light mt-3 mb-3 p-2 text-center'><h2><Strong>Personaje no encontrado</Strong></h2></div>
+    <!-- <div class='container bg-gradient-light mt-3 mb-3 p-2 text-center'><h2><Strong>Personaje no encontrado</Strong></h2></div> -->
 
     <table class="table table-bordered text-center table-responsive-sm">
         <thead >

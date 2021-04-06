@@ -17,9 +17,17 @@ class AdministradorController
     }
     public function login(){
         /* MODIFICAR SESSIONES Y ADMINISTRADOR */ 
-        $usuario=isset($_POST["usuario"]);
-        $password=isset($_POST["password"]);
-        if (($usuario=="machick" && $password=="jojo1998")||($_SESSION["usuario_logeado"]="machick" && $_SESSION["password_logeado"]="jojo1998")) {  
+        isset($_POST["usuario"])?$usuario=$_POST["usuario"]:$usuario=$_SESSION["usuario_logeado"];
+        isset($_POST["usuario"])?$password=$_POST["password"]:$password=$_SESSION["password_logeado"];        
+        
+            // function console_log( $data ){
+            //     echo '<script>';
+            //     echo 'console.log('. json_encode( $data ) .')';
+            //     echo '</script>';
+            // } 
+            // $myvar =$usuario;
+            // console_log( $myvar );        
+        if ($usuario=="machick" && $password=="jojo1998"){              
             $_SESSION["usuario_logeado"]="machick";
             $_SESSION["password_logeado"]="jojo1998";
             $data["admins"]=$this->AdministradorModel->traerAdmins();          
